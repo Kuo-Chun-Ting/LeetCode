@@ -1,4 +1,5 @@
 ﻿using LeetCode.Problem.Algorithms;
+using LeetCode.Problem.Others;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,20 +22,25 @@ namespace LeetCode
 
             #region Algo.2
 
-            var node1 = new ListNode(2);
-            node1.next = new ListNode(4);
-            node1.next.next = new ListNode(3);
+            //var node1 = new ListNode(2);
+            //node1.next = new ListNode(4);
+            //node1.next.next = new ListNode(3);
 
-            var node2 = new ListNode(5);
-            node2.next = new ListNode(6);
-            node2.next.next = new ListNode(4);
+            //var node2 = new ListNode(5);
+            //node2.next = new ListNode(6);
+            //node2.next.next = new ListNode(4);
 
-            var algo2 = new Algorithms2();
-            var result = algo2.AddTwoNumbers(node1, node2); 
+            //var algo2 = new Algorithms2();
+            //var result = algo2.AddTwoNumbers(node1, node2);
 
             #endregion
 
+            #region Pyramid
 
+            var pyramid = new Pyramid();
+            pyramid.PrintPyramid();
+
+            #endregion
 
 
             Console.ReadKey();
